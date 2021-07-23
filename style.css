@@ -23,9 +23,13 @@ body{
      color: white;
  }
 /* ------------------------------------ */
+
+  /* header logo  menubar */
 .logo_img img{
     max-width: 150px;
 }
+
+  /* banner part  */
 .banner_part{
     position: relative;
 }
@@ -51,6 +55,8 @@ body{
     
 }
 
+/* start banner club company  */
+
 .banner_club img{
     max-width: 120px;
 }
@@ -63,6 +69,9 @@ body{
     height:356px;
     
 }
+
+     /* start process bar  */
+
 .process_bar{ 
 max-width:1093px ;  
 /* height:594px ;  */
@@ -86,6 +95,11 @@ position: relative;
     height: 439px;
     max-width: 360px;
 }
+.process_13_bg_color{
+    background-color: #B57AD2;
+
+}
+
 .founders_part{
     height: 773px;
 }
@@ -147,7 +161,23 @@ position: relative;
 .expert_bg_color{
     background-color: #FFFDFB;
 }
+/* ------------------------success story ------  */
+.chart_img img{
+    width: 100%;
+}
+ 
+    /* start footer  */
 
 footer{
     background-color: #B57AD2;
+}
+
+/* --------------------media query---------------  */
+@media only screen and (max-width:1199px) {
+    .process_bar::before{
+       display: none;
+    }
+    .process_bar::after{
+        display: none;
+    }
 }

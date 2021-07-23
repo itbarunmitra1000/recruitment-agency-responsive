@@ -6,6 +6,23 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+ .all_btn{
+     padding: 15px 25px ;
+     font-size: 18px;
+     font-weight: bold;
+     color: white;
+     border-radius: 30px;
+     background-color: #B57AD2;
+     transition: 0.5s linear ;
+     border: 0;
+     text-decoration: none;
+     letter-spacing: 2px;
+ }
+ .all_btn:hover{
+     background-color:#6d328a ;
+     color: white;
+ }
+/* ------------------------------------ */
 .logo_img img{
     max-width: 150px;
 }

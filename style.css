@@ -69,6 +69,15 @@ body{
     height:356px;
     
 }
+ /* service section  */
+ ul li::before {
+    content: "\2022";
+    color: #B57AD2;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 
      /* start process bar  */
 

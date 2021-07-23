@@ -76,3 +76,53 @@ position: relative;
     max-width: 464px;
     max-height: 538px;
 }
+
+.sponsor img{
+    max-width:150px;
+}
+.team_members{
+   /* margin-top: 100px;
+   margin-bottom: 100px; */
+   background-color: #ECDAEC;
+   border-radius: 25%;
+}
+.team-member{
+    height: 712px;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.member_group{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+.member_1{
+    position: absolute;
+    left: 15%;
+    bottom:30% ;
+}
+.member_2{
+    position: absolute;
+    right: 30%;
+    bottom: 3%;
+
+}
+.member_3{
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+
+.member_4{
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+}
+
+.member_5{
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
